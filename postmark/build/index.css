@@ -1,0 +1,133 @@
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/main.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+#my-plugin-app {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#my-plugin-app .app-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+#my-plugin-app .Tabs {
+  min-height: 400px;
+  padding: 2rem 1rem;
+  color: black;
+}
+#my-plugin-app ul.nav {
+  margin: 0 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid gray;
+}
+#my-plugin-app ul.nav li {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+#my-plugin-app ul.nav li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+#my-plugin-app ul.nav li.active {
+  background: #39A2DB;
+}
+#my-plugin-app .FirstTab p,
+#my-plugin-app .SecondTab p {
+  font-size: 2rem;
+  text-align: center;
+}
+#my-plugin-app .bounces-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#my-plugin-app .bounces-container .bounces-filter {
+  display: flex;
+  justify-content: space-between;
+}
+#my-plugin-app .bounces-container .bounces-filter .button-primary {
+  margin: 0 10px !important;
+}
+#my-plugin-app .bounces-container .bounces {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  overflow: scroll;
+}
+#my-plugin-app .bounces-container .bounces table {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+#my-plugin-app .bounces-container .bounces table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#my-plugin-app .bounces-container .bounces table tr:hover {
+  background-color: #ddd;
+}
+#my-plugin-app .bounces-container .bounces table tr td, #my-plugin-app .bounces-container .bounces table tr th {
+  border: 2px solid black;
+  width: 200px !important;
+}
+#my-plugin-app .bounces-container .pagination-container {
+  display: flex;
+  justify-content: flex-end;
+}
+#my-plugin-app .bounces-container .pagination-container .pagination {
+  display: flex;
+}
+#my-plugin-app .bounces-container .pagination-container .pagination li {
+  text-align: center;
+  width: 50px;
+  border: 1px solid blue;
+}
+#my-plugin-app .bounces-container .pagination-container .pagination li input {
+  width: 100%;
+}
+#my-plugin-app .activate-bounce {
+  padding: 3px;
+}
+#my-plugin-app .button-danger {
+  background: #90051a;
+  border-color: #960516;
+  color: #fff;
+  padding: 3px;
+  text-decoration: none;
+  text-shadow: none;
+  cursor: pointer;
+}
+#my-plugin-app .bounces-settings {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+#my-plugin-app .bounces-settings input[type=text], #my-plugin-app .bounces-settings select, #my-plugin-app .bounces-settings textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#my-plugin-app .bounces-settings input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#my-plugin-app .bounces-settings input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*# sourceMappingURL=index.css.map*/

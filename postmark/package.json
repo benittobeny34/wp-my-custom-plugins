@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "start:hot": "wp-scripts start --hot"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "node-sass": "^7.0.1",
+    "postmark": "^3.0.19"
+  },
+  "name": "sample-plugin",
+  "description": "#### WordPress Plugin Boilerplate Generator 1.0.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.13.0"
+  }
+}

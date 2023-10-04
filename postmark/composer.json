@@ -1,0 +1,12 @@
+{
+  "name": "cartrabbit/my-wp-plugin-boiler-plate-code",
+  "autoload": {
+    "psr-4": {
+      "Cartrabbit\\Postmark\\App\\": "app/",
+      "Cartrabbit\\Postmark\\Init\\": "bootstrap/",
+      "Cartrabbit\\Postmark\\Bootstrap\\": "bootstrap/"
+    }
+  },
+  "require": {
+  }
+}

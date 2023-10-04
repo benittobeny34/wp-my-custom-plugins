@@ -1,0 +1,20 @@
+{
+  "name": "cartrabbit/my-wp-plugin-boiler-plate-code",
+  "autoload": {
+    "psr-4": {
+      "Cartrabbit\\Mail\\Custom\\App\\": "app/",
+      "Cartrabbit\\Mail\\Custom\\Bootstrap\\": "bootstrap/"
+    }
+  },
+  "require": {
+    "mailgun/mailgun-php": "^3.5.0",
+    "nyholm/psr7": "^1.8",
+    "symfony/http-client": "^5.3.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    },
+    "platform-check": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cartrabbit/my-wp-plugin-boiler-plate-code",
+  "autoload": {
+    "psr-4": {
+      "Cartrabbit\\DeleteDraftDaily\\App\\": "app/",
+      "Cartrabbit\\DeleteDraftDaily\\Bootstrap\\": "bootstrap/"
+    }
+  },
+  "require": {
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    },
+    "platform-check": false
+  }
+}

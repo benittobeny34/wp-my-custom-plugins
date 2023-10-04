@@ -1,0 +1,158 @@
+#my-plugin-app {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  .app-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .Tabs {
+    min-height: 400px;
+    padding: 2rem 1rem;
+    color: black;
+  }
+
+  ul.nav {
+    margin: 0 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid gray;
+  }
+
+  ul.nav li {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.7s;
+  }
+
+  ul.nav li:hover {
+    background: rgba(50, 224, 196, 0.15);
+  }
+
+  ul.nav li.active {
+    background: #39A2DB;
+  }
+
+  .FirstTab p,
+  .SecondTab p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .bounces-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .bounces-filter {
+      display: flex;
+      justify-content: space-between;
+
+      .button-primary {
+        margin: 0 10px !important;
+      }
+    }
+
+    .bounces {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      text-align: center;
+      overflow: scroll;
+
+      table {
+        width: 100% !important;
+        border-collapse: collapse;
+
+        th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #04AA6D;
+          color: white;
+        }
+
+        tr {
+          &:hover {
+            background-color: #ddd;
+          }
+
+          td, th {
+            border: 2px solid black;
+            width: 200px !important;
+          }
+        }
+      }
+
+    }
+
+    .pagination-container {
+      display: flex;
+      justify-content: flex-end;
+
+      .pagination {
+        display: flex;
+
+        li {
+          text-align: center;
+          width: 50px;
+          border: 1px solid blue;
+
+          input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .activate-bounce {
+    padding: 3px;
+  }
+
+  .button-danger {
+    background: #90051a;
+    border-color: #960516;
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
+  }
+
+  .bounces-settings {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+    input[type=text], select, textarea {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  }
+
+}

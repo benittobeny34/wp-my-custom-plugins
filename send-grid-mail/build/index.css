@@ -1,0 +1,29 @@
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/main.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+#my-plugin-app {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#my-plugin-app .new-mail form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  gap: 1rem;
+}
+#my-plugin-app .new-mail form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/css/index.css ***!
+  \***********************************************************************************************************************************************************************/
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+/*# sourceMappingURL=index.css.map*/
