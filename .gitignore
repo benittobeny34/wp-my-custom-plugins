@@ -1,20 +1,18 @@
-/akismet
-/google-listings-and-ads
-/jetpack
-/mailpoet
-/pinterest-for-woocommerce
-/woocommerce
-/wp-crontrol
-/woo-discount-rules
-/hello.php
-/index.php
 
-/delete-draft-daily/node_modules
+/*
+
+!/delete-draft-daily
 /delete-draft-daily/vendor
+/delete-draft-daily/node_modules
 
-
-/postmark/node_modules
+!/postmark
 /postmark/vendor
+/postmark/node_modules
 
+!/send-grid-mail
 /send-grid-mail/node_modules
 /send-grid-mail/vendor
+
+!/buy-x-get-x
+/buy-x-get-x/vendor
+/buy-x-get-x/node_modules

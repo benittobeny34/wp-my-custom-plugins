@@ -1,0 +1,12 @@
+{
+  "name": "cartrabbit/buy-x-get-x",
+  "autoload": {
+    "psr-4": {
+      "Cartrabbit\\BuyXGetX\\App\\": "app/",
+      "Cartrabbit\\BuyXGetX\\Init\\": "bootstrap/",
+      "Cartrabbit\\BuyXGetX\\Bootstrap\\": "bootstrap/"
+    }
+  },
+  "require": {
+  }
+}
