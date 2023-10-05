@@ -2,6 +2,7 @@
 
 namespace Cartrabbit\BuyXGetX\Bootstrap;
 
+use Cartrabbit\BuyXGetX\App\Hooks\CustomHooks;
 use Cartrabbit\BuyXGetX\App\Hooks\WooCommerceHooks;
 use Cartrabbit\BuyXGetX\App\Helpers\Functions;
 use Cartrabbit\BuyXGetX\App\Helpers\WordpressHelper;
@@ -28,6 +29,7 @@ class Route
         AdminFilters::register();
         AssetsActions::register();
         WooCommerceHooks::register();
+        CustomHooks::register();
 //        }
     }
 
