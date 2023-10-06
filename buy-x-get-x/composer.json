@@ -3,7 +3,8 @@
   "autoload": {
     "psr-4": {
       "Cartrabbit\\BuyXGetX\\App\\": "app/",
-      "Cartrabbit\\BuyXGetX\\Core\\": "Core/"
+      "Cartrabbit\\BuyXGetX\\Core\\": "Core/",
+      "Cartrabbit\\BuyXGetX\\Pro\\": "Pro/"
     }
   },
   "require": {

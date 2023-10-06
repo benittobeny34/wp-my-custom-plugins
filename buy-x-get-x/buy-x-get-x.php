@@ -18,7 +18,7 @@
  */
 
 
-use Cartrabbit\BuyXGetX\Core\App;
+use Cartrabbit\BuyXGetX\App\App;
 
 defined('ABSPATH') or exit;
 
@@ -48,10 +48,10 @@ if (!function_exists('cartrabbit_buy_x_get_x')) {
 
 //here __FILE__ Will Return the Included File Path so it the base of the starting point.
 // To bootstrap the plugin
-if (class_exists('Cartrabbit\BuyXGetX\Core\App')) {
+if (class_exists('Cartrabbit\BuyXGetX\App\App')) {
     $app = cartrabbit_buy_x_get_x();
     //Check Whether it is PRO USER
-//    $isPro = $app->set('is_pro_plugin', true);
+    $isPro = $app->set('is_pro_plugin', true);
 
     $app->bootstrap(); // to load the plugin
 } else {
