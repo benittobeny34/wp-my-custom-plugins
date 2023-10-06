@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Plugin Name:          Woo-Commerce-Buy-X-Get-X
  * Description:          Buy X Product and Get X Same Product
@@ -19,6 +18,8 @@
  */
 
 
+use Cartrabbit\BuyXGetX\Core\App;
+
 defined('ABSPATH') or exit;
 
 defined('BUY_X_GET_X_PREFIX_PLUGIN_PATH') or define('BUY_X_GET_X_PREFIX_PLUGIN_PATH', plugin_dir_path(__FILE__));
@@ -36,6 +37,25 @@ if (file_exists(BUY_X_GET_X_PREFIX_PLUGIN_PATH . '/vendor/autoload.php')) {
     wp_die('{plugin_name} is unable to find the autoload file.');
 }
 
-require __DIR__ . '/bootstrap/bootstrap.php';
+defined('ABSPATH') or exit;
+
+if (!function_exists('cartrabbit_buy_x_get_x')) {
+    function cartrabbit_buy_x_get_x(): App
+    {
+        return App::make();
+    }
+}
+
+//here __FILE__ Will Return the Included File Path so it the base of the starting point.
+// To bootstrap the plugin
+if (class_exists('Cartrabbit\BuyXGetX\Core\App')) {
+    $app = cartrabbit_buy_x_get_x();
+    //Check Whether it is PRO USER
+//    $isPro = $app->set('is_pro_plugin', true);
+
+    $app->bootstrap(); // to load the plugin
+} else {
+    wp_die('Plugin is unable to find the App class.');
+}
 
 
