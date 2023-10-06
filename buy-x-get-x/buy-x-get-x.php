@@ -51,7 +51,11 @@ if (!function_exists('cartrabbit_buy_x_get_x')) {
 if (class_exists('Cartrabbit\BuyXGetX\App\App')) {
     $app = cartrabbit_buy_x_get_x();
     //Check Whether it is PRO USER
-    $isPro = $app->set('is_pro_plugin', true);
+    $proDirectoryPath = __DIR__ . '/Pro';
+
+    if (is_dir($proDirectoryPath)) {
+        $isPro = $app->set('is_pro_plugin', true);
+    }
 
     $app->bootstrap(); // to load the plugin
 } else {
